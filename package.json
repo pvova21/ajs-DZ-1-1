@@ -1,0 +1,30 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvova21/ajs-DZ-1-1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "pvova21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvova21/ajs-DZ-1-1/issues"
+  },
+  "homepage": "https://github.com/pvova21/ajs-DZ-1-1#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.25.0"
+  }
+}
